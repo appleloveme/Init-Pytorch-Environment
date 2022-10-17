@@ -64,3 +64,15 @@ git clone https://github.com/appleloveme/Init-Pytorch-Environment.git
 cat Init-Pytorch-Environment/bash_config.txt >> ~/.bashrc
 source ~/.bashrc
 
+# 安装 Tmux
+conda install tmux
+
+# 生成公钥
+cd ~/.ssh
+ssh-keygen -t rsa
+
+# 复制公钥
+# cat id_rsa.pub
+
+
+
