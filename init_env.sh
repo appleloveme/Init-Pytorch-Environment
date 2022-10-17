@@ -59,5 +59,8 @@ cd ~/.config
 git clone https://github.com/appleloveme/ranger
 
 # 初始化 Bash
-cat bash_config.txt >> ~/.bashrc
+cd ..
+git clone https://github.com/appleloveme/Init-Pytorch-Environment.git
+cat Init-Pytorch-Environment/bash_config.txt >> ~/.bashrc
+source ~/.bashrc
 
